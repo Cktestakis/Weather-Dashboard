@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Weather Dashboard</title>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="heading">
+            <div>
+                <h1>Weather Dashboard</h1>
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 pl-2">
+                <div class="card" style="width: 22rem;">
+                    <div class="card-body">
+                        <h6>Search for a City:</h6>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="city-input">
+                            </div>
+                            <button id="search-button" type="submit" class="btn btn-primary"><i
+                                    class="fas fa-search"></i> </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+                <div>
+                    <ul id="city-list" class="list-group">
+                </div>
+
+            </div>
+            <div class="col-md-9">
+                <div id="current-weather" class="card">
+                    <div class="card-body">
+                        <div id="city-date-icon">
+                            <span id="city-name">
+                            </span>
+                            <span id="current-icon"></span>
+                            <p class="card-text" id="current-temp"></p>
+                            <p class="card-text" id="current-humidity"></p>
+                            <p class="card-text" id="current-wind"></p>
+                            <p class="card-text" id="current-uv"></p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="forecast-weather" class="col-md-9">
+                            <h4>5-Day Forecast:</h4>
+                            <div id="forecast-cards">
+                                <div class="card forecast">
+                                    <div id="forecast1" class="card-body">
+                                        <span class="card-title" id="forecast-date1"></span>
+                                        <span id="forecast-icon"></span>
+                                        <p class="card-text" id="forecast-temp1"></p>
+                                        <p class="card-text" id="forecast-humidity1"></p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
