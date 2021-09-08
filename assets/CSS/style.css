@@ -1,44 +1,44 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.heading {
-    background-color: rgb(0, 0, 104);
-    color: rgb(249, 249, 253);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .heading {
+    background-color: #520000;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
-}
-
-input {
+  }
+  
+  input {
     width: 75%;
-}
-
-#city-list {
-    width: 75%;
-}
-
-#city-date-icon,
-#city-name,
-#current-icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: center/space-around/space-between;
-}
-
-h6 {
+  }
+  
+  #city-list {
+    width: 22rem;
+  }
+  
+  #city-date-icon,
+  #city-name,
+  #current-icon {
+      display: flex;
+      flex-direction: row;
+      justify-content: center/space-around/space-between;
+  }
+  
+  h6 {
     font-weight: bold;
-}
-
-h4 {
-    margin: 5px;
-}
-
-#forecast-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center/space-between;
-}
-
-.forecast {
-    margin: 10px;
-}
+  }
+  
+  h4 {
+      margin: 5px;
+  }
+  
+  #forecast-cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center/space-between;
+  }
+  
+  .forecast {
+      margin: 10px;
+  }
